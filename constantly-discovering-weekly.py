@@ -56,8 +56,8 @@ def main():
         sys.exit()
 
     # Authorisation token
-    token = util.prompt_for_user_token(username, scope, client_id='a6776200ad364d2b9769641366361baf',
-                                       client_secret='201fe92a3ef54dd486284ebfdbea555c',
+    token = util.prompt_for_user_token(username, scope, client_id='',
+                                       client_secret='',
                                        redirect_uri='https://bobbymcgonigle.github.io')
 
     # Once token is okay, check if playlist exists already, create if neccessary and add songs
